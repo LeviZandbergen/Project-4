@@ -2,7 +2,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
-	background-color: #00B1F4;
+	background: url('Afbeeldingen/BGround.jpg') no-repeat;
 	background-size: cover;
 	font-family: sans-serif;
 	height:100%;
@@ -10,13 +10,16 @@ body {
 }
 #header {
 	padding: 10px;
-	background-color: #00B1F4;
 }
 #container {
 	height:100%;
 }
+.slides {
+	color:black;
+	margin-left: 28%;
+}
 #footer {
-	background-color: #1ac2ff;
+	background-color:rgba(51,201,255,0.5);
 	position: fixed;
 	bottom:0;
 	width:80%;
@@ -38,7 +41,7 @@ body {
 	color: white;
 }
 .Homeclm1 {
-	margin: 0px 0px 50px 0px;
+	margin: 0px 0px 20px 0px;
 	background-color:rgba(51,201,255,0.5);
 }
 .column2, .column3 {
@@ -59,9 +62,6 @@ form.rechts{
 	padding: 16px;
 	font-size: 16px;
 	border: none;
-}
-a:hover {
-	background-color: #1ac2ff;
 }
 .dropbtn:hover {
 	background-color: #1ac2ff;
@@ -103,24 +103,44 @@ a:hover {
 }
 
 /* Hosting */
-.hostingI {
-	margin-top: 40px;
+.HostingI {
+	background-color:rgba(51,201,255,0.5);
 }
-.Pakket {
+.PakketOut {
+	background-color:rgba(51,201,255,0.5);
 	width: 30%;
-	text-align: center;
-	list-style-type: none;
-	display: inline;
+	margin: 0% 0% 0% 35%;
+}
+h2 {
+	background-color:rgba(51,201,255,0.5);
 }
 #Brons {
 	width: 15%;
-		display: inline-block;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #cd7f32;
+
 }
 #Zilver {
 	width: 15%;
-		display: inline-block;
+	display: inline-block;
+	background-color: silver;
 }
 #Goud {
 	width: 15%;
-		display: inline-block;
+	display: inline-block;
+	background-color: gold;
+}
+/* SMedia */
+
+.Twitter {
+	float: left;
+	background-color: none;
+	color: white;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+#FBlogo {
+	float: right;
+	margin-top: 20px;
 }
