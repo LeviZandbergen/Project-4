@@ -1,0 +1,126 @@
+body {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #00B1F4;
+	background-size: cover;
+	font-family: sans-serif;
+	height:100%;
+	padding-bottom: 60px;
+}
+#header {
+	padding: 10px;
+	background-color: #00B1F4;
+}
+#container {
+	height:100%;
+}
+#footer {
+	background-color: #1ac2ff;
+	position: fixed;
+	bottom:0;
+	width:80%;
+	height:40px;
+	}
+.TextPicHome {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.PicHome {
+	background-color: none;
+	width: 100%;
+	float: left;
+	margin: -25px 0px 0px 0px;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.Homeclm1 {
+	margin: 0px 0px 50px 0px;
+	background-color:rgba(51,201,255,0.5);
+}
+.column2, .column3 {
+	background-color: #efefef;
+	width: 100%;
+	float: left;
+	margin: 50px 0px 0px 0px;
+}
+form.rechts{
+	float: right;
+	margin: 15px -105px 0px 0px;
+}
+
+
+.dropbtn{
+	background-color: white;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+a:hover {
+	background-color: #1ac2ff;
+}
+.dropbtn:hover {
+	background-color: #1ac2ff;
+}
+.nav {
+	background-color: white;
+	font-family: Arial;
+}
+.nav a {
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+/*Cloud */
+
+.CloudA1 {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.CloudA2 {
+	width: 100%;
+	float: right;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.CloudA3 {
+	bottom
+	float: left;
+}
+.btn {
+	width: 100%;
+	color: black;
+	text-decoration: none;
+	background-color:white;
+}
+
+/* Hosting */
+.hostingI {
+	margin-top: 40px;
+}
+.Pakket {
+	width: 30%;
+	text-align: center;
+	list-style-type: none;
+	display: inline;
+}
+#Brons {
+	width: 15%;
+		display: inline-block;
+}
+#Zilver {
+	width: 15%;
+		display: inline-block;
+}
+#Goud {
+	width: 15%;
+		display: inline-block;
+}
