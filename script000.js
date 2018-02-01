@@ -16,3 +16,22 @@ function Goud(){
 
 	document.getElementById('Out').innerHTML = Goud + " " + PGoud;
 }
+
+function Geel(){
+	var Geel = "Pakket Geel: 10GB opslag"
+	var PGeel = "(€4,- per maand)"
+
+	alert( Geel + " " + PGeel)
+}
+function Oranje(){
+	var Oranje = "Pakket Oranje: 100GB opslag"
+	var POranje = "(€6,- per maand)"
+
+	alert( Oranje + " " + POranje)
+}
+function Groen(){
+	var Groen = "Pakket Groen: 1TB opslag"
+	var PGroen = "(€10,- per maand)"
+
+	alert( Groen + " " + PGroen)
+}

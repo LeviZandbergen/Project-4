@@ -12,3 +12,12 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 5000);
 }
+
+function Rekentool() {
+	var Pbrons = "5,95";
+	var Pzilver = "7,95";
+	var pgoud = "10.95"
+	var vraag1 = "Om welk pakket gaat het?"
+
+	prompt(vraag1)
+}

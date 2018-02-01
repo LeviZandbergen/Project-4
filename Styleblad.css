@@ -16,7 +16,7 @@ body {
 }
 .slides {
 	color:black;
-	margin-left: 28%;
+	margin: 0 auto;
 }
 #footer {
 	background-color:rgba(51,201,255,0.5);
@@ -143,4 +143,43 @@ h2 {
 #FBlogo {
 	float: right;
 	margin-top: 20px;
+}
+
+/* Klantenpagina */
+.SlideKlant {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#revieuw {
+	width: 30%;
+	background-color:rgba(51,201,255,0.5);
+	display: inline-block;
+}
+.KlantR {
+	background-color:rgba(51,201,255,0.5);
+	margin:0 auto;
+	width: 50%
+}
+
+/* Cloud */
+
+#Geel {
+	width: 15%;
+	display: inline-block;
+	text-decoration: none;
+	background-color: yellow;
+
+}
+#Oranje {
+	width: 15%;
+	display: inline-block;
+	background-color: orange;
+}
+#Groen {
+	width: 15%;
+	display: inline-block;
+	background-color: green;
+}
+#CIMG {
+	margin-top: 10px;
 }
